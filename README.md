@@ -1,93 +1,93 @@
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Daily Predictions</title>  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
+  <title>Sure Over 1.5 Goals Only</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; }
+
+    body { 
+      background: #0f172a; 
+      color: #ffffff; 
+      padding: 8px;
     }
 
-    body {
-      background: #0f172a;
-      color: #ffffff;
-      padding: 15px;
-    }
+    .container { max-width: 420px; margin: auto; }
 
     .header {
       text-align: center;
-      font-size: 24px;
+      font-size: 20px;
       font-weight: bold;
-      margin-bottom: 20px;
-      color: #38bdf8;
-    }
-
-    .container {
-      display: grid;
-      gap: 15px;
-    }
-
-    .box {
-      background: #1e293b;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #22c55e, #4ade80);
+      padding: 10px;
       border-radius: 12px;
-      padding: 15px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-      border-left: 5px solid #38bdf8;
+      color: #022c22;
     }
 
-    .item {
-      margin: 6px 0;
-      font-size: 15px;
+    .day-box {
+      background: #020617;
+      border-radius: 12px;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #1e293b;
     }
 
-    .label {
-      color: #94a3b8;
+    .date { font-size: 12px; color: #94a3b8; margin-bottom: 6px; text-align: center; }
+
+    .match {
+      background: #020617;
+      border: 1px solid #1e293b;
+      padding: 8px;
+      border-radius: 8px;
+      margin-bottom: 6px;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .tip-badge {
+      display: inline-block;
+      margin-top: 4px;
+      background: #22c55e;
+      color: #022c22;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 10px;
       font-weight: bold;
     }
 
-    .result-win {
-      color: #22c55e;
+    .day-result {
+      margin-top: 8px;
+      text-align: center;
+      padding: 6px;
+      border-radius: 8px;
+      font-size: 12px;
       font-weight: bold;
     }
 
-    .result-lose {
-      color: #ef4444;
-      font-weight: bold;
-    }
+    .won { background: #16a34a; }
+    .pending { background: #eab308; color: #000; }
+    .lost { background: #dc2626; }
 
-    .result-pending {
-      color: #facc15;
-      font-weight: bold;
-    }
-  </style></head>
-<body>  <div class="header">FIXED DAILY PREDICTIONS</div>  <div class="container">
-
+    .telegram { text-align: center; font-size: 10px; color: #38bdf8; margin-top: 6px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">Sure Over 1.5 Goals Only</div>
 
 
 
-<!-- Day 1 -->
-<div class="box">
-  <div class="item"><span class="label">Date:</span> 07 Feb 2026</div>
-  <div class="item"><span class="label">Match:</span> Real Sociedad vs Elche </div>
-  <div class="item"><span class="label">Tip:</span> Over 2.5 Goals</div>
-  <div class="item"><span class="label">Results:</span> <span class="result-pending">PENDING</span></div>
-</div>
-
-
-
-
-
-
-
-<!-- Day 1 -->
-<div class="box">
-  <div class="item"><span class="label">Date:</span> 06 Feb 2026</div>
-  <div class="item"><span class="label">Match:</span> Union Berlin vs Eintracht FrankFurt </div>
-  <div class="item"><span class="label">Tip:</span> B.T.T.S</div>
-  <div class="item"><span class="label">Results:</span> <span class="result-win">WIN</span></div>
-</div>
+<!-- DAY 1 -->
+    <div class="day-box">
+      <div class="date">06 Feb 2026</div>
+      <div class="match">Union Berlin vs Eintracht Frankfurt<div class="tip-badge">Over 1.5</div></div>
+      <div class="match">Red Star vs Pau F.C  <div class="tip-badge">Over 1.5</div></div>
+      <div class="match">Celta Vigo  vs Osasuna <div class="tip-badge">Over 1.5</div></div>
+      <div class="day-result pending">Result: PENDING </div>
+      <div class="telegram">Owner @aimastergrand001</div>
+    </div>
 
 
 
@@ -95,46 +95,73 @@
 
 
 
-<!-- Day 1 -->
-<div class="box">
-  <div class="item"><span class="label">Date:</span> 05 Feb 2026</div>
-  <div class="item"><span class="label">Match:</span> Al Tadhamon vs Al Nasr </div>
-  <div class="item"><span class="label">Tip:</span> B.T.T.S</div>
-  <div class="item"><span class="label">Results:</span> <span class="result-win">WIN</span></div>
-</div>
 
-<!-- Day 2 -->
-<div class="box">
-  <div class="item"><span class="label">Date:</span> 04 Feb 2026</div>
-  <div class="item"><span class="label">Match:</span> Manchester City vs Newcastle</div>
-  <div class="item"><span class="label">Tip:</span> B.T.T.S</div>
-  <div class="item"><span class="label">Results:</span> <span class="result-win">WIN</span></div>
-</div>
 
-<!-- Day 3 -->
-<div class="box">
-  <div class="item"><span class="label">Date:</span> 03 Feb 2026</div>
-  <div class="item"><span class="label">Match:</span> Bologna vs A.C Milan</div>
-  <div class="item"><span class="label">Tip:</span> A.C Milan To Win</div>
-  <div class="item"><span class="label">Results:</span> <span class="result-win">WIN</span></div>
-</div>
 
-<!-- Day 4 -->
-<div class="box">
-  <div class="item"><span class="label">Date:</span> 02 Feb 2026</div>
-  <div class="item"><span class="label">Match:</span> Sunderland vs Burnley </div>
-  <div class="item"><span class="label">Tip:</span> Over 2.5 Goals</div>
-  <div class="item"><span class="label">Results:</span> <span class="result-win">WIN</span></div>
-</div>
 
-<!-- Day 5 -->
-<div class="box">
-  <div class="item"><span class="label">Date:</span> 01 Feb 2026</div>
-  <div class="item"><span class="label">Match:</span> Manchester United vs Fulham</div>
-  <div class="item"><span class="label">Tip:</span> Over 3.5 Goals</div>
-  <div class="item"><span class="label">Results:</span> <span class="result-win">WIN</span></div>
-</div>
 
-  </div></body>
-</htm
-  
+
+
+
+
+         <!-- DAY 1 -->
+    <div class="day-box">
+      <div class="date">05 Feb 2026</div>
+      <div class="match">Nakhon Pathom United vs Chanthaburi <div class="tip-badge">Over 1.5</div></div>
+      <div class="match">Fenerbache vs Erzurumpspr  <div class="tip-badge">Over 1.5</div></div>
+      <div class="match">Al Tadhamon   vs Al Nasr<div class="tip-badge">Over 1.5</div></div>
+      <div class="day-result won">Result: WON </div>
+      <div class="telegram">Owner @aimastergrand001</div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- DAY 1 -->
+    <div class="day-box">
+      <div class="date">04 Feb 2026</div>
+      <div class="match">El Bayadh vs Rouisset <div class="tip-badge">Over 1.5</div></div>
+      <div class="match">Lorient vs Paris  <div class="tip-badge">Over 1.5</div></div>
+      <div class="match">Nice  vs Montpellier<div class="tip-badge">Over 1.5</div></div>
+      <div class="day-result won">Result: WON</div>
+      <div class="telegram">Owner @aimastergrand001</div>
+    </div>
+
+    <!-- DAY 2 -->
+    <div class="day-box">
+      <div class="date">03 Feb 2026</div>
+      <div class="match">Bologna  vs A.C Milan <div class="tip-badge">Over 1.5</div></div>
+      <div class="match">Aldosivi 2  vs AthletiCo Tucuman 2<div class="tip-badge">Over 1.5</div></div>
+      <div class="match">Newell Old Boys 2  vs Huracan 2 <div class="tip-badge">Over 1.5</div></div>
+      <div class="day-result won">Result: WON</div>
+      <div class="telegram">Owner @aimastergrand001</div>
+    </div>
+
+    <!-- DAY 3 -->
+    <div class="day-box">
+      <div class="date">02 Feb 2026</div>
+      <div class="match">Sunderland vs Burnley <div class="tip-badge">Over 1.5</div></div>
+      <div class="match">Mallorca  vs Sevilla <div class="tip-badge">Over 1.5</div></div>
+      <div class="match">Lazio U20 vs Atalanta U20<div class="tip-badge">Over 1.5</div></div>
+      <div class="day-result won">Result: WON</div>
+      <div class="telegram">Owner @aimastergrand001</div>
+    </div>
+
+    <!-- DAY 4 -->
+    <div class="day-box">
+      <div class="date">01 Feb 2026</div>
+      <div class="match">Nottingham Forest vs Crystal Palace <div class="tip-badge">Over 1.5</div></div>
+      <div class="match">Athletic Bilbao vs Real Sociedad <div class="tip-badge">Over 1.5</div></div>
+      <div class="match">Mekelle 70 vs Ethiopia Bunna<div class="tip-badge">Over 1.5</div></div>
+      <div class="day-result won">Result: WON</div>
+      <div class="telegram">Owner @aimastergrand001</div>
+    </div>
+
+  </div>
+</body>
+</html>
