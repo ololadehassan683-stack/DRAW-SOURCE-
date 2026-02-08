@@ -1,167 +1,99 @@
-
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sure Over 1.5 Goals Only</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; }
-
-    body { 
-      background: #0f172a; 
-      color: #ffffff; 
-      padding: 8px;
+  <title>1X2 VIP</title>  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
-    .container { max-width: 420px; margin: auto; }
+    body {
+      background: linear-gradient(135deg, #0f172a, #020617);
+      color: #ffffff;
+      padding: 8px;
+      font-size: 13px;
+    }
 
     .header {
       text-align: center;
       font-size: 20px;
       font-weight: bold;
       margin-bottom: 10px;
-      background: linear-gradient(90deg, #22c55e, #4ade80);
-      padding: 10px;
-      border-radius: 12px;
-      color: #022c22;
+      color: #38bdf8;
+      letter-spacing: 1px;
     }
 
     .day-box {
       background: #020617;
+      border: 1px solid #1e293b;
       border-radius: 12px;
       padding: 10px;
-      margin-bottom: 10px;
-      border: 1px solid #1e293b;
+      margin-bottom: 8px;
+      box-shadow: 0 0 8px rgba(56, 189, 248, 0.12);
     }
 
-    .date { font-size: 12px; color: #94a3b8; margin-bottom: 6px; text-align: center; }
-
-    .match {
-      background: #020617;
-      border: 1px solid #1e293b;
-      padding: 8px;
-      border-radius: 8px;
-      margin-bottom: 6px;
-      text-align: center;
-      font-size: 12px;
+    .row {
+      display: flex;
+      justify-content: space-between;
+      margin: 3px 0;
     }
 
-    .tip-badge {
-      display: inline-block;
-      margin-top: 4px;
-      background: #22c55e;
-      color: #022c22;
-      padding: 4px 8px;
-      border-radius: 6px;
-      font-size: 10px;
+    .label {
+      color: #94a3b8;
+    }
+
+    .value {
       font-weight: bold;
+      color: #e2e8f0;
     }
 
-    .day-result {
-      margin-top: 8px;
-      text-align: center;
-      padding: 6px;
-      border-radius: 8px;
-      font-size: 12px;
-      font-weight: bold;
-    }
-
-    .won { background: #16a34a; }
-    .pending { background: #eab308; color: #000; }
-    .lost { background: #dc2626; }
-
-    .telegram { text-align: center; font-size: 10px; color: #38bdf8; margin-top: 6px; }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="header">Sure Over 1.5 Goals Only</div>
-
-
-
-<!-- DAY 1 -->
-    <div class="day-box">
-      <div class="date">06 Feb 2026</div>
-      <div class="match">Union Berlin vs Eintracht Frankfurt<div class="tip-badge">Over 1.5</div></div>
-      <div class="match">Red Star vs Pau F.C  <div class="tip-badge">Over 1.5</div></div>
-      <div class="match">Celta Vigo  vs Osasuna <div class="tip-badge">Over 1.5</div></div>
-      <div class="day-result pending">Result: PENDING </div>
-      <div class="telegram">Owner @aimastergrand001</div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-         <!-- DAY 1 -->
-    <div class="day-box">
-      <div class="date">05 Feb 2026</div>
-      <div class="match">Nakhon Pathom United vs Chanthaburi <div class="tip-badge">Over 1.5</div></div>
-      <div class="match">Fenerbache vs Erzurumpspr  <div class="tip-badge">Over 1.5</div></div>
-      <div class="match">Al Tadhamon   vs Al Nasr<div class="tip-badge">Over 1.5</div></div>
-      <div class="day-result won">Result: WON </div>
-      <div class="telegram">Owner @aimastergrand001</div>
-    </div>
-
-
-
-
-
-
-
-
-
-    <!-- DAY 1 -->
-    <div class="day-box">
-      <div class="date">04 Feb 2026</div>
-      <div class="match">El Bayadh vs Rouisset <div class="tip-badge">Over 1.5</div></div>
-      <div class="match">Lorient vs Paris  <div class="tip-badge">Over 1.5</div></div>
-      <div class="match">Nice  vs Montpellier<div class="tip-badge">Over 1.5</div></div>
-      <div class="day-result won">Result: WON</div>
-      <div class="telegram">Owner @aimastergrand001</div>
-    </div>
-
-    <!-- DAY 2 -->
-    <div class="day-box">
-      <div class="date">03 Feb 2026</div>
-      <div class="match">Bologna  vs A.C Milan <div class="tip-badge">Over 1.5</div></div>
-      <div class="match">Aldosivi 2  vs AthletiCo Tucuman 2<div class="tip-badge">Over 1.5</div></div>
-      <div class="match">Newell Old Boys 2  vs Huracan 2 <div class="tip-badge">Over 1.5</div></div>
-      <div class="day-result won">Result: WON</div>
-      <div class="telegram">Owner @aimastergrand001</div>
-    </div>
-
-    <!-- DAY 3 -->
-    <div class="day-box">
-      <div class="date">02 Feb 2026</div>
-      <div class="match">Sunderland vs Burnley <div class="tip-badge">Over 1.5</div></div>
-      <div class="match">Mallorca  vs Sevilla <div class="tip-badge">Over 1.5</div></div>
-      <div class="match">Lazio U20 vs Atalanta U20<div class="tip-badge">Over 1.5</div></div>
-      <div class="day-result won">Result: WON</div>
-      <div class="telegram">Owner @aimastergrand001</div>
-    </div>
-
-    <!-- DAY 4 -->
-    <div class="day-box">
-      <div class="date">01 Feb 2026</div>
-      <div class="match">Nottingham Forest vs Crystal Palace <div class="tip-badge">Over 1.5</div></div>
-      <div class="match">Athletic Bilbao vs Real Sociedad <div class="tip-badge">Over 1.5</div></div>
-      <div class="match">Mekelle 70 vs Ethiopia Bunna<div class="tip-badge">Over 1.5</div></div>
-      <div class="day-result won">Result: WON</div>
-      <div class="telegram">Owner @aimastergrand001</div>
-    </div>
-
-  </div>
-</body>
+    .tip { color: #22c55e; }
+    .win { color: #22c55e; }
+    .lose { color: #ef4444; }
+    .pending { color: #facc15; }
+  </style></head><body>
+  <div class="header">1X2 VIP</div>  <!-- DAY 1 -->  <div class="day-box">
+    <div class="row"><span class="label">Date:</span><span class="value">01 Feb 2026</span></div>
+    <div class="row"><span class="label">Match:</span><span class="value">Arsenal vs Brighton</span></div>
+    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value win">WIN</span></div>
+  </div>  <!-- DAY 2 -->  <div class="day-box">
+    <div class="row"><span class="label">Date:</span><span class="value">02 Feb 2026</span></div>
+    <div class="row"><span class="label">Match:</span><span class="value">Inter Milan vs Torino</span></div>
+    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value lose">LOSE</span></div>
+  </div>  <!-- DAY 3 -->  <div class="day-box">
+    <div class="row"><span class="label">Date:</span><span class="value">03 Feb 2026</span></div>
+    <div class="row"><span class="label">Match:</span><span class="value">Barcelona vs Sevilla</span></div>
+    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value win">WIN</span></div>
+  </div>  <!-- DAY 4 -->  <div class="day-box">
+    <div class="row"><span class="label">Date:</span><span class="value">04 Feb 2026</span></div>
+    <div class="row"><span class="label">Match:</span><span class="value">PSG vs Lyon</span></div>
+    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value pending">PENDING</span></div>
+  </div>  <!-- DAY 5 -->  <div class="day-box">
+    <div class="row"><span class="label">Date:</span><span class="value">05 Feb 2026</span></div>
+    <div class="row"><span class="label">Match:</span><span class="value">Bayern vs Augsburg</span></div>
+    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value win">WIN</span></div>
+  </div>  <!-- DAY 6 -->  <div class="day-box">
+    <div class="row"><span class="label">Date:</span><span class="value">06 Feb 2026</span></div>
+    <div class="row"><span class="label">Match:</span><span class="value">Chelsea vs Wolves</span></div>
+    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value lose">LOSE</span></div>
+  </div>  <!-- DAY 7 -->  <div class="day-box">
+    <div class="row"><span class="label">Date:</span><span class="value">07 Feb 2026</span></div>
+    <div class="row"><span class="label">Match:</span><span class="value">Real Madrid vs Betis</span></div>
+    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value pending">PENDING</span></div>
+  </div>  <!-- DAY 8 -->  <div class="day-box">
+    <div class="row"><span class="label">Date:</span><span class="value">08 Feb 2026</span></div>
+    <div class="row"><span class="label">Match:</span><span class="value">Napoli vs Lazio</span></div>
+    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
+    <div class="row"><span class="label">Results:</span><span class="value pending">PENDING</span></div>
+  </div></body>
 </html>
