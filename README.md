@@ -1,99 +1,186 @@
-<!DOCTYPE html><html lang="en">
+    <!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>1X2 VIP</title>  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>G.G DAILY VIP</title>
 
-    body {
-      background: linear-gradient(135deg, #0f172a, #020617);
-      color: #ffffff;
-      padding: 8px;
-      font-size: 13px;
-    }
+<style>
+body{
+  margin:0;
+  background:#0f1a14;
+  font-family:Arial, Helvetica, sans-serif;
+  color:white;
+}
 
-    .header {
-      text-align: center;
-      font-size: 20px;
-      font-weight: bold;
-      margin-bottom: 10px;
-      color: #38bdf8;
-      letter-spacing: 1px;
-    }
+.container{
+  padding:10px;
+}
 
-    .day-box {
-      background: #020617;
-      border: 1px solid #1e293b;
-      border-radius: 12px;
-      padding: 10px;
-      margin-bottom: 8px;
-      box-shadow: 0 0 8px rgba(56, 189, 248, 0.12);
-    }
+h1{
+  text-align:center;
+  font-size:18px;
+  margin:5px 0 8px 0;
+  color:#00ff88;
+}
 
-    .row {
-      display: flex;
-      justify-content: space-between;
-      margin: 3px 0;
-    }
+/* SUMMARY */
+.summary{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:8px;
+  font-size:12px;
+  font-weight:bold;
+}
 
-    .label {
-      color: #94a3b8;
-    }
+.win-text{ color:#00ff88; }
+.loss-text{ color:#ff4d4d; }
+.pending-text{ color:#ffc107; }
 
-    .value {
-      font-weight: bold;
-      color: #e2e8f0;
-    }
+/* MATCH BOX */
+.match-box{
+  background:#16241c;
+  padding:6px 8px;
+  margin-bottom:5px;
+  border-radius:6px;
+  font-size:12px;
+}
 
-    .tip { color: #22c55e; }
-    .win { color: #22c55e; }
-    .lose { color: #ef4444; }
-    .pending { color: #facc15; }
-  </style></head><body>
-  <div class="header">1X2 VIP</div>  <!-- DAY 1 -->  <div class="day-box">
-    <div class="row"><span class="label">Date:</span><span class="value">01 Feb 2026</span></div>
-    <div class="row"><span class="label">Match:</span><span class="value">Arsenal vs Brighton</span></div>
-    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
-    <div class="row"><span class="label">Results:</span><span class="value win">WIN</span></div>
-  </div>  <!-- DAY 2 -->  <div class="day-box">
-    <div class="row"><span class="label">Date:</span><span class="value">02 Feb 2026</span></div>
-    <div class="row"><span class="label">Match:</span><span class="value">Inter Milan vs Torino</span></div>
-    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
-    <div class="row"><span class="label">Results:</span><span class="value lose">LOSE</span></div>
-  </div>  <!-- DAY 3 -->  <div class="day-box">
-    <div class="row"><span class="label">Date:</span><span class="value">03 Feb 2026</span></div>
-    <div class="row"><span class="label">Match:</span><span class="value">Barcelona vs Sevilla</span></div>
-    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
-    <div class="row"><span class="label">Results:</span><span class="value win">WIN</span></div>
-  </div>  <!-- DAY 4 -->  <div class="day-box">
-    <div class="row"><span class="label">Date:</span><span class="value">04 Feb 2026</span></div>
-    <div class="row"><span class="label">Match:</span><span class="value">PSG vs Lyon</span></div>
-    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
-    <div class="row"><span class="label">Results:</span><span class="value pending">PENDING</span></div>
-  </div>  <!-- DAY 5 -->  <div class="day-box">
-    <div class="row"><span class="label">Date:</span><span class="value">05 Feb 2026</span></div>
-    <div class="row"><span class="label">Match:</span><span class="value">Bayern vs Augsburg</span></div>
-    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
-    <div class="row"><span class="label">Results:</span><span class="value win">WIN</span></div>
-  </div>  <!-- DAY 6 -->  <div class="day-box">
-    <div class="row"><span class="label">Date:</span><span class="value">06 Feb 2026</span></div>
-    <div class="row"><span class="label">Match:</span><span class="value">Chelsea vs Wolves</span></div>
-    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
-    <div class="row"><span class="label">Results:</span><span class="value lose">LOSE</span></div>
-  </div>  <!-- DAY 7 -->  <div class="day-box">
-    <div class="row"><span class="label">Date:</span><span class="value">07 Feb 2026</span></div>
-    <div class="row"><span class="label">Match:</span><span class="value">Real Madrid vs Betis</span></div>
-    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
-    <div class="row"><span class="label">Results:</span><span class="value pending">PENDING</span></div>
-  </div>  <!-- DAY 8 -->  <div class="day-box">
-    <div class="row"><span class="label">Date:</span><span class="value">08 Feb 2026</span></div>
-    <div class="row"><span class="label">Match:</span><span class="value">Napoli vs Lazio</span></div>
-    <div class="row"><span class="label">Tip:</span><span class="value tip">1</span></div>
-    <div class="row"><span class="label">Results:</span><span class="value pending">PENDING</span></div>
-  </div></body>
+.top-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.date{
+  color:#cccccc;
+  font-size:10px;
+}
+
+.match{
+  font-weight:bold;
+  margin-top:2px;
+}
+
+.bottom-row{
+  display:flex;
+  justify-content:space-between;
+  margin-top:3px;
+  font-size:11px;
+}
+
+.pick{
+  background:#00ff88;
+  color:black;
+  padding:2px 6px;
+  border-radius:4px;
+  font-weight:bold;
+}
+
+.result-win{ color:#00ff88; font-weight:bold; }
+.result-loss{ color:#ff4d4d; font-weight:bold; }
+.result-pending{ color:#ffc107; font-weight:bold; }
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>G.G DAILY VIP</h1>
+
+
+<!-- MATCHES -->
+
+<div class="match-box">
+  <div class="top-row">
+    <div class="date">10 Feb</div>
+  </div>
+  <div class="match">Arsenal vs Chelsea</div>
+  <div class="bottom-row">
+    <div class="pick">G.G</div>
+    <div class="result-win">WIN</div>
+  </div>
+</div>
+
+<div class="match-box">
+  <div class="top-row">
+    <div class="date">11 Feb</div>
+  </div>
+  <div class="match">Real Madrid vs Girona</div>
+  <div class="bottom-row">
+    <div class="pick">G.G</div>
+    <div class="result-win">WIN</div>
+  </div>
+</div>
+
+<div class="match-box">
+  <div class="top-row">
+    <div class="date">12 Feb</div>
+  </div>
+  <div class="match">Inter vs Napoli</div>
+  <div class="bottom-row">
+    <div class="pick">G.G</div>
+    <div class="result-win">WIN</div>
+  </div>
+</div>
+
+<div class="match-box">
+  <div class="top-row">
+    <div class="date">13 Feb</div>
+  </div>
+  <div class="match">PSG vs Monaco</div>
+  <div class="bottom-row">
+    <div class="pick">G.G</div>
+    <div class="result-win">WIN</div>
+  </div>
+</div>
+
+<div class="match-box">
+  <div class="top-row">
+    <div class="date">14 Feb</div>
+  </div>
+  <div class="match">Dortmund vs Leipzig</div>
+  <div class="bottom-row">
+    <div class="pick">G.G</div>
+    <div class="result-win">WIN</div>
+  </div>
+</div>
+
+<div class="match-box">
+  <div class="top-row">
+    <div class="date">15 Feb</div>
+  </div>
+  <div class="match">AC Milan vs Lazio</div>
+  <div class="bottom-row">
+    <div class="pick">G.G</div>
+    <div class="result-win">WIN</div>
+  </div>
+</div>
+
+<div class="match-box">
+  <div class="top-row">
+    <div class="date">16 Feb</div>
+  </div>
+  <div class="match">Man City vs Spurs</div>
+  <div class="bottom-row">
+    <div class="pick">G.G</div>
+    <div class="result-loss">LOSS</div>
+  </div>
+</div>
+
+<div class="match-box">
+  <div class="top-row">
+    <div class="date">17 Feb</div>
+  </div>
+  <div class="match">Barcelona vs Sevilla</div>
+  <div class="bottom-row">
+    <div class="pick">G.G</div>
+    <div class="result-pending">PENDING</div>
+  </div>
+</div>
+
+</div>
+
+</body>
 </html>
