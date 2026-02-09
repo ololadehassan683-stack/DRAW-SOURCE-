@@ -89,15 +89,8 @@ h1{
 <div class="container">
 <h1>G.G DAILY VIP</h1>
 
-<div class="summary">
-  <div class="win-text">6 WIN</div>
-  <div class="loss-text">1 LOSS</div>
-  <div class="pending-text">1 PENDING</div>
-</div>
 
-<!-- MATCHES -->
-
-<div class="match-box">
+  <div> class="match-box">
   <div class="top-row">
     <div class="date">10 Feb</div>
   </div>
