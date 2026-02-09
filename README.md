@@ -90,7 +90,7 @@ h1{
 <h1>G.G DAILY VIP</h1>
 
 
-  <div> class="match-box">
+  <div> 
   <div class="top-row">
     <div class="date">10 Feb</div>
   </div>
